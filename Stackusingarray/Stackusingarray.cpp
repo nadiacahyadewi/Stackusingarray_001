@@ -81,5 +81,7 @@ int main() {
 				cout << "\nStack is empty." << endl;
 				break;
 			}
+			s.pop();
+			break;
 	}
 }
