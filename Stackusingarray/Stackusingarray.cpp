@@ -86,5 +86,7 @@ int main() {
 		case '3':
 			s.display();
 			break;
+		case '4':
+			return 0;
 	}
 }
