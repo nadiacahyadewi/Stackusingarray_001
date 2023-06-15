@@ -33,6 +33,7 @@ public:
 			cout << "\nStack is empty. Cannot pop." << endl;
 			return;
 		}
+
 		cout << "\nThe popped element is: " << stack_array[top] << endl;
 		top--;
 	}
@@ -52,3 +53,18 @@ public:
 		}
 	}
 };
+
+int main() {
+	Program s;
+
+	while (true) {
+		cout << endl;
+		cout << "\n***Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
+		cout << "3. Display\n";
+		cout << "4. Exit\n";
+		cout << "\nEnter your choice: ";
+		
+	}
+}
